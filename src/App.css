@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;700&family=Titillium+Web:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Jost:wght@100;200;300;400;500;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;700&family=Titillium+Web:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Jost:wght@100;200;300;400;500;700&family=Libre+Baskerville:wght@400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;700&family=Titillium+Web:wght@200;300;600&display=swap');
+
 body{
     background: #f5f6fa;
+    font-family: 'Jost', sans-serif;
     /*background: linear-gradient(0deg, rgba(206,214,224,1) 29%, rgba(223,228,234,1) 40%, rgba(241,242,246,1) 84%, rgba(255,255,255,1) 96%);*/
 }
 nav{
@@ -60,6 +68,7 @@ nav{
 /*Styling Buttons*/
 .login-button{
     background-color: transparent;
+    color: #fff;
     border: 1.5px solid #f2f5f7;
     border-radius: 2em;
     padding: 0.6rem 0.8rem;
@@ -101,7 +110,12 @@ nav{
 .hamburger{
     display: none;
 }
-
+#web-slid{
+    display: initial;
+}
+#phone-slid{
+    display: none;
+}
 /*Stying for small screens*/
 @media screen and (max-width: 800px){
     nav{
@@ -188,6 +202,12 @@ nav{
     /*.fade .login-button{*/
     /*    margin: 2rem 0 0 1rem;*/
     /*}*/
+    #phone-slid{
+        display: initial !important;
+    }
+    #web-slid{
+        display: none !important;
+    }
     .show-login-btn{
         display: inline-grid;
         gap: 1rem;
@@ -220,16 +240,18 @@ header {
 }
 
 header #header-content{
-    top: 30%;
-    width: 80%;
-    height: 50%;
-
+    bottom: 10%;
+    width: 100%;
+    /*height: 50%;*/
+}
+header #header-content p{
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.5;
 }
 #slider img{
     object-fit: contain;
 }
 
 .book-btn{
-    background: rgb(32,22,63);
-    background: linear-gradient(180deg, rgba(32,22,63,1) 23%, rgba(64,53,96,1) 59%, rgba(92,79,133,1) 94%);
+    background: #f53946;
 }
