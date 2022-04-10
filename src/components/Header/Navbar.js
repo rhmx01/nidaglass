@@ -20,7 +20,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="flex fixed w-full shadow-lg">
+            <nav className="flex fixed w-full bg-white shadow-lg">
                 <div className="flex w-full lg:container mx-auto">
                     <div className="logo flex items-center">
                         <img className="h-16" src="https://upload.wikimedia.org/wikipedia/commons/2/2c/OneWeb_Logo.png" alt="Logo Image"/>

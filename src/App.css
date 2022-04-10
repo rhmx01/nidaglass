@@ -1,6 +1,6 @@
-.bg-body{
-    background: rgb(206,214,224);
-    background: linear-gradient(0deg, rgba(206,214,224,1) 29%, rgba(223,228,234,1) 40%, rgba(241,242,246,1) 84%, rgba(255,255,255,1) 96%);
+body{
+    background: #f5f6fa;
+    /*background: linear-gradient(0deg, rgba(206,214,224,1) 29%, rgba(223,228,234,1) 40%, rgba(241,242,246,1) 84%, rgba(255,255,255,1) 96%);*/
 }
 nav{
     /*height: 6rem;*/
@@ -206,4 +206,30 @@ nav{
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
+}
+header {
+    position: relative;
+    /*height: 800px;*/
+    /*min-height: 500px;*/
+    /*width: 100%;*/
+    /*background: #161415 url(./images/header-backgroundj.jpg) no-repeat top center;*/
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    /*text-align: center;*/
+    overflow: hidden;
+}
+
+header #header-content{
+    top: 30%;
+    width: 80%;
+    height: 50%;
+
+}
+#slider img{
+    object-fit: contain;
+}
+
+.book-btn{
+    background: rgb(32,22,63);
+    background: linear-gradient(180deg, rgba(32,22,63,1) 23%, rgba(64,53,96,1) 59%, rgba(92,79,133,1) 94%);
 }
