@@ -27,7 +27,7 @@ const ServicesList = () => {
         },
     ]
     return (
-        <div className="mt-8 p-8 ">
+        <div className="mt-8 p-8">
             <h1 className="font-bold text-4xl text-center  text-purple mb-4">Best Packages For You</h1>
             <div className="mt-8 grid lg:grid-cols-4 gap-4 w-full lg:container mx-auto">
                 {
