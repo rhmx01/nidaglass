@@ -1,9 +1,8 @@
 import React from 'react';
-import {School} from "@mui/icons-material";
-import camel from "../images/camel.png"
-import buggy from "../images/buggy.png"
-import night from "../images/night.png"
-import jeep from "../images/jeep.png"
+import camel from "../../images/camel.png"
+import buggy from "../../images/buggy.png"
+import night from "../../images/night.png"
+import jeep from "../../images/jeep.png"
 
 const Services = () => {
     return (

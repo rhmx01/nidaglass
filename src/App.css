@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;700&family=Titillium+Web:wght@200;300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Jost:wght@100;200;300;400;500;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;700&family=Titillium+Web:wght@200;300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Jost:wght@100;200;300;400;500;700&family=Libre+Baskerville:wght@400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;700&family=Titillium+Web:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
 
 body{
     background: #f5f6fa;
@@ -268,4 +269,53 @@ header #header-content p{
 
 .book-btn{
     background: #f53946;
+}
+
+.text-pink{
+    color: #fa505c;
+}
+.text-purple{
+    color: #20163f;
+}
+
+.card {
+    font-family: "Quicksand", sans-serif;
+    width: 90%;
+    max-width: 350px;
+    background: rgb(32,22,63);
+    background: radial-gradient(circle, rgba(32,22,63,1) 22%, rgba(64,53,96,1) 56%, rgba(245,57,70,1) 66%, rgba(64,53,96,1) 78%);
+    padding: 0 2rem 1.5rem 2rem;
+    border-radius: 10px;
+    transition: box-shadow .3s linear;
+}
+.card:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, .3);
+}
+
+.card .card-img {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, .3);
+    transform: translateY(-15%);
+    transition: box-shadow .3s linear;
+}
+.card:hover .card-img {
+    box-shadow: none;
+}
+.card .card-img img {
+    width: 100%;
+    display: block;
+}
+
+.card .card-content {
+    text-align: center;
+}
+.card .card-content .big-title {
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.card .card-content .medium-title {
+    color: #ffffff;
+    font-size: .85rem;
+    margin-top: .3rem;
 }
