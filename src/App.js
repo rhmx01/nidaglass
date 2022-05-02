@@ -5,6 +5,7 @@ import ServicesList from "./components/ServicesList";
 import About from "./components/About";
 import Map from "./components/Map";
 import Testimonials from "./components/Testimonials";
+import Gallery from "./components/Gallery";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Header/>
             <About/>
             <ServicesList/>
+            <Gallery/>
             <Testimonials/>
             <Map/>
 

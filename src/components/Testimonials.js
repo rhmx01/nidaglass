@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/testimonial.css"
-import {Star, StarOutline, StarOutlined} from "@mui/icons-material";
+import {Star, StarOutline} from "@mui/icons-material";
 
 const Testimonials = () => {
     return (
