@@ -5,7 +5,7 @@ import Services from "./Services";
 
 const Header = () => {
     return (
-        <header className="w-screen h-screen">
+        <header className="h-screen">
             <div className="relative h-full">
                 <Slider/>
                 <div id="header-content" className="absolute p-8">

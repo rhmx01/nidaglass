@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div className="w-full lg:container mx-auto">
             <div className="pt-16 flex items-center">
-                <div className="flex py-8">
+                <div className="lg:flex py-8">
                     <div className="px-4">
                         <img id="about-pic" src={daytour} alt="Rachid hamma ali" className="flex shadow-xl max-h-96 rounded-xl shadow-lg"/>
                     </div>
