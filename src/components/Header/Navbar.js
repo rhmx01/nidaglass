@@ -1,5 +1,6 @@
 import React from 'react';
-import {Menu, Settings} from "@mui/icons-material";
+import {Menu} from "@mui/icons-material";
+import {Avatar} from "@mui/material";
 
 const Navbar = () => {
 
@@ -31,15 +32,23 @@ const Navbar = () => {
                     <div className="flex justify-between w-full text-gray-500">
                         <ul className="nav-links">
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Solutions</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li className="show-login-btn"><button className="login-button">Login</button><button className="join-button">Join</button></li>
+                            <li><a href="#tours">Tours</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            {/*<li><a href="#destinations">Destinations</a></li>*/}
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li className="show-login-btn">
+                                {/*<Avatar alt="Arabic" src="https://img.icons8.com/color/96/000000/morocco-circular.png" />*/}
+                                {/*<Avatar alt="English" src="https://img.icons8.com/color/96/000000/great-britain-circular.png" />*/}
+                                <Avatar alt="Fresh" src="https://img.icons8.com/fluency/48/000000/france-circular.png" />
+                            </li>
                         </ul>
                         <ul className="nav-links border-l">
-                            <li className="ml-2"><button className="login-button">Login</button></li>
-                            <li className="ml-2"><button className="join-button">Join</button></li>
+                            {/*<li className="ml-2"><button className="login-button">Login</button></li>*/}
+                            {/*<li className="ml-2"><button className="join-button">Join</button></li>*/}
+                            {/*<li className="ml-2 cursor-pointer hover:opacity-50"><Avatar alt="Arabic" src="https://img.icons8.com/color/96/000000/morocco-circular.png" /></li>*/}
+                            {/*<li className="ml-2 cursor-pointer hover:opacity-50"><Avatar alt="English" src="https://img.icons8.com/color/96/000000/great-britain-circular.png" /></li>*/}
+                            <li className="ml-2 cursor-pointer hover:opacity-50"><Avatar alt="Fresh" src="https://img.icons8.com/fluency/48/000000/france-circular.png" /></li>
                         </ul>
                     </div>
                 </div>
