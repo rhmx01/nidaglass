@@ -23,13 +23,13 @@ const Slider = () => {
                     autoplaySpeed={2500}
                 >
                     <div id="phone-slid">
-                        <img src={s1phone} className="w-full h-full" alt="ed"/>
+                        <img src={s1phone} className="w-full h-full phone-slid-img" alt="ed"/>
                     </div>
                     <div id="phone-slid">
-                        <img src={s2phone} className="w-full h-full" alt="ed"/>
+                        <img src={s2phone} className="w-full h-full phone-slid-img" alt="ed"/>
                     </div>
                     <div id="phone-slid">
-                        <img src={s3phone} className="w-full h-full" alt="ed"/>
+                        <img src={s3phone} className="w-full h-full phone-slid-img" alt="ed"/>
                     </div>
                 </SSlider>
             </div>
@@ -45,7 +45,7 @@ const Slider = () => {
                     autoplaySpeed={2500}
                 >
                     <div id="web-slid">
-                        <img src={s1} className="w-full h-full" alt="ed"/>
+                        <img src={s3} className="w-full h-full" alt="ed"/>
                     </div>
                     <div id="web-slid">
                         <img src={s2} className="w-full h-full" alt="ed"/>

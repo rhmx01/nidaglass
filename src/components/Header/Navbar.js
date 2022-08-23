@@ -24,7 +24,7 @@ const Navbar = () => {
             <nav className="flex fixed w-full shadow-lg">
                 <div className="flex w-full lg:container mx-auto">
                     <div className="logo flex items-center">
-                        <img className="h-16" src="https://upload.wikimedia.org/wikipedia/commons/2/2c/OneWeb_Logo.png" alt="Logo Image"/>
+                        <img className="h-16" src="https://upload.wikimedia.org/wikipedia/commons/2/2c/OneWeb_Logo.png" alt="Logo mhamid tours"/>
                     </div>
                     <div className="hamburger">
                         <Menu onClick={toggle}/>
