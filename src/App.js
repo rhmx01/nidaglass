@@ -6,6 +6,7 @@ import About from "./components/About";
 import Map from "./components/Map";
 import Testimonials from "./components/Testimonials";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Gallery/>
             <Testimonials/>
             <Map/>
+            <Footer/>
 
         </div>
     );
