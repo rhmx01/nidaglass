@@ -45,7 +45,7 @@ const Slider = () => {
                     autoplaySpeed={2500}
                 >
                     <div id="web-slid">
-                        <img src={s3} className="w-full h-full" alt="ed"/>
+                        <img src={s1} className="w-full h-full" alt="ed"/>
                     </div>
                     <div id="web-slid">
                         <img src={s2} className="w-full h-full" alt="ed"/>
