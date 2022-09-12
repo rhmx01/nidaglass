@@ -17,7 +17,7 @@ nav{
     /*display: flex;*/
     /*position: fixed;*/
     z-index: 10;
-    background: rgba(32, 22, 63);
+    background: #2e86de;
 }
 
 /*Styling logo*/
@@ -49,7 +49,7 @@ nav{
     margin: 0 0.7vw;
 }
 .nav-links li a:hover {
-    color: #2e86de;
+    color: #ff9f43;
 }
 .nav-links li {
     position: relative;
@@ -59,7 +59,7 @@ nav{
     display: block;
     height: 3px;
     width: 0%;
-    background-color: #2e86de;
+    background-color: #ff9f43;
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
@@ -81,22 +81,22 @@ nav{
 
 }
 .login-button:hover {
-    color: #341f97;
+    color: #ff9f43;
     background-color: #f2f5f7;
     border:1.5px solid #f2f5f7;
     transition: all ease-in-out 350ms;
 }
 .join-button{
     color: #fff;
-    background-color: #2e86de;
-    border: 1.5px solid #2e86de;
+    background-color: #ff9f43;
+    border: 1.5px solid #ff9f43;
     border-radius: 2em;
     padding: 0.6rem 0.8rem;
     font-size: 1rem;
     cursor: pointer;
 }
 .join-button:hover {
-    color: #341f97;
+    color: #ff9f43;
     background-color: transparent;
     border:1.5px solid #f2f5f7;
     transition: all ease-in-out 350ms;
@@ -155,7 +155,7 @@ nav{
         transform: translate(-5%, -50%);
         z-index: 2;
         transition: all 0.7s ease;
-        color: #341f97;
+        color: #fff;
     }
     .toggle{
          color: #fff;
@@ -163,7 +163,7 @@ nav{
     .nav-links{
         position: fixed;
         right: 0;
-        background: #341f97;
+        background: #2e86de;
         height: 95vh;
         width: 60%;
         border-radius: 0 0 0 20px;
@@ -291,18 +291,17 @@ header #header-content p{
     color: #2e86de;
 }
 .text-purple{
-    color: #341f97;
+    color: #2e86de;
 }
 .bg-purple{
-    background-color: #341f97;
+    background-color: #2e86de;
 }
 
 .card {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Jost", sans-serif;
     width: 90%;
     max-width: 350px;
-    background: rgb(32,22,63);
-    background: radial-gradient(circle, rgba(32,22,63,1) 22%, rgba(64,53,96,1) 56%, rgba(245,57,70,1) 66%, rgba(64,53,96,1) 78%);
+    background: #2e86de;
     padding: 0 2rem 1.5rem 2rem;
     border-radius: 10px;
     transition: box-shadow .3s linear;
@@ -323,6 +322,7 @@ header #header-content p{
 }
 .card .card-img img {
     width: 100%;
+    height: 160px;
     display: block;
 }
 
