@@ -8,8 +8,7 @@ import doublevitre from "../images/products/doublevitre.jpg"
 import verrecolore from "../images/products/verrecolore.jpg"
 import gardeCorpsVerre from "../images/products/gardeCorpsVerre.jpg"
 import accordeonVerre from "../images/products/accordeonVerre.jpg"
-import {Button, IconButton} from "@mui/material";
-import {Add} from "@mui/icons-material";
+
 const ServicesList = () => {
     const services = [
         {
