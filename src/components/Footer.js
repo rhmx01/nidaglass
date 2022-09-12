@@ -7,8 +7,8 @@ const Footer = () => {
             <div className="mx-auto">
                 <h1>Contact us</h1>
                 <ul>
-                    <li> <FmdGood/> mhamid erg chagaga 45000 </li>
-                    <li> <AlternateEmail/> contact@mhamid.tours </li>
+                    <li> <FmdGood/> Casablanca </li>
+                    <li> <AlternateEmail/> contact@nodaglass.ma </li>
                     <li> <PhoneIphone/> +212 696 22 71 19 </li>
                 </ul>
             </div>
@@ -16,13 +16,13 @@ const Footer = () => {
                 <h1>Links</h1>
                 <ul>
                     <li>Home</li>
-                    <li>Programs</li>
+                    <li>Products</li>
                     <li>About us</li>
                 </ul>
             </div>
             <div className="mx-auto">
-                <h1>Get in tuch</h1>
-                <ul className="flex">
+                <h1 className="mb-2">Get in tuch</h1>
+                <ul className="grid gap-2">
                     <div>Facebook</div>
                     <div>Trippadvisor</div>
                     <div>Booking</div>
