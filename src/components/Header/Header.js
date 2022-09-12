@@ -1,6 +1,5 @@
 import React from 'react';
 import Slider from "./Slider";
-import {ArrowRightAlt} from "@mui/icons-material";
 import Services from "./Services";
 
 const Header = () => {

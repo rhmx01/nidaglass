@@ -18,7 +18,7 @@ function App() {
             {/*<Gallery/>*/}
             {/*<Testimonials/>*/}
             <Map/>
-            {/*<Footer/>*/}
+            <Footer/>
 
         </div>
     );
