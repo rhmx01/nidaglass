@@ -13,7 +13,7 @@ function App() {
         <div className="App bg-body">
             <Navbar/>
             <Header/>
-            {/*<About/>*/}
+            <About/>
             {/*<ServicesList/>*/}
             {/*<Gallery/>*/}
             {/*<Testimonials/>*/}
