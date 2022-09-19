@@ -1,31 +1,31 @@
 import React from 'react';
-import {AlternateEmail, FmdGood, PhoneIphone} from "@mui/icons-material";
+import {AlternateEmail, Facebook, FmdGood, Instagram, LinkedIn, PhoneIphone} from "@mui/icons-material";
 
 const Footer = () => {
     return (
         <div className="px-4 py-10 bg-purple grid lg:grid-cols-3 gap-4 text-white mx-auto">
-            <div className="mx-auto">
-                <h1>Contact us</h1>
+            <div className="lg:mx-auto">
+                <h1 className="py-4 font-bold text-2xl text-left">Nous contacter</h1>
                 <ul>
                     <li> <FmdGood/> Casablanca </li>
-                    <li> <AlternateEmail/> contact@nodaglass.ma </li>
-                    <li> <PhoneIphone/> +212 696 22 71 19 </li>
+                    <li> <AlternateEmail/> contact@nidaglass.ma </li>
+                    <li> <PhoneIphone/> +212 661 78 60 66 </li>
                 </ul>
             </div>
-            <div className="mx-auto">
-                <h1>Links</h1>
+            <div className="lg:mx-auto">
+                <h1 className="py-4 font-bold text-2xl text-left">Lien</h1>
                 <ul>
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>About us</li>
+                    <li>Accueil</li>
+                    <li>Produits</li>
+                    <li>À propos de nous</li>
                 </ul>
             </div>
-            <div className="mx-auto">
-                <h1 className="mb-2">Get in tuch</h1>
-                <ul className="grid gap-2">
-                    <div>Facebook</div>
-                    <div>Trippadvisor</div>
-                    <div>Booking</div>
+            <div className="lg:mx-auto">
+                <h1 className="py-4 font-bold text-2xl text-left">Réseau</h1>
+                <ul>
+                    <li><Facebook/> Nidaglass</li>
+                    <li><Instagram/> Nidaglass</li>
+                    <li><LinkedIn/> Nidaglass</li>
                 </ul>
             </div>
         </div>
